@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MH.ret"
+    android:versionCode="1"
+    android:versionName="0.9 Alpha 1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.MH.ret.customClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="com.MH.ret.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_extra"
+            android:label="@string/title_activity_activity_extra"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_timers"
+            android:label="@string/title_activity_activity_timers"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_first_controls"
+            android:label="@string/title_activity_activity_controls"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_services"
+            android:label="@string/title_activity_activity_services"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <!--  
+        <activity
+            android:name="com.MH.ret.Activity_movies"
+            android:label="@string/title_activity_activity_movies"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        -->
+        <activity
+            android:name="com.MH.ret.Activity_settings"
+            android:label="@string/title_activity_activity_settings"
+            android:parentActivityName="com.MH.ret.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_epg"
+            android:label="@string/title_activity_activity_epg"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_rec_info"
+            android:label="@string/title_activity_activity_rec_info"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_grab_screen"
+            android:label="@string/title_activity_activity_grab_screen"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_search_epg"
+            android:label="@string/title_activity_activity_search_epg"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_send_mess"
+            android:label="@string/title_activity_activity_send_mess"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_signal_meter"
+            android:label="@string/title_activity_activity_signal_meter"
+            android:parentActivityName="com.MH.ret.Activity_extra" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_extra" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_sec_controls"
+            android:label="@string/title_activity_activity_controls1"
+            android:parentActivityName="com.MH.ret.Activity_first_controls" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.Activity_first_controls" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_sub_services"
+            android:label="@string/title_activity_activity_sub_services" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.MH.ret.Activity_mediaplayer"
+            android:label="@string/title_activity_activity_mediaplayer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.MH.ret.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ucon="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search_epg"
+        ucon:showAsAction="always"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_search"/>
+    <item
+        android:id="@+id/action_settings"
+        ucon:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"/>
+
+</menu>
