@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- test -->
+    <string name="discription">Remote for Enigma II driven Topboxes</string>
+
+    <!-- Message -->
+    <string name="message_hint">Your Message</string>
+    <string name="message_radio_yesno">Question</string>
+    <string name="message_radio_info">Info</string>
+    <string name="message_radio_message">Message</string>
+    <string name="message_radio_attention">Caution</string>
+    <string name="message_title_send">Send</string>
+    <string name="message_length_5">5 sec</string>
+    <string name="message_length_10">10 sec</string>
+    <string name="message_length_20">20 sec</string>
+    <string name="message_length_40">40 sec</string>
+    <string name="message_length_noLimit">no limit</string>
+    <string name="message_com_text">/web/message?text=%1$s&#38;type=%2$s&#38;timeout=%3$s</string>
+    <string name="message_noText">There\'s no text to send!</string>
+
+    <!-- Dialogs and ActionBar -->
+    <string name="hello_world">Hello world!</string>
+    <string name="dialog_wrong_ip">Ip-address is not valid! Settings will not be saved!</string>
+    <string name="dialog_wrong_dyndns">Dyndns is not valid! Settings will not be saved!</string>
+    <string name="dialog_exit">Exit anyway</string>
+    <string name="dialog_back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_error">Input Error</string>
+    <string name="caution">Caution!</string>
+    <string name="dialog_delete">Do you really want to delete?</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_not_connected_title">No Connection!</string>
+    <string name="dialog_not_connected_text">No Connection available! Please check your phone settings!</string>
+    <string name="dialog_no_ip_title">No IP-Address!</string>
+    <string name="dialog_no_ip_text">Enter IP-Address for Wifi-Mode!</string>
+    <string name="dialog_no_dynDns_title">No DynDns!</string>
+    <string name="dialog_no_dynDns_text">Only Mobile is available! Please enter DynDns for Mobile-Mode!</string>
+    <string name="dialog_connection_failed_title">Connection failed!</string>
+    <string name="dialog_connection_failed_ip_text">Connection failed! Please eihter check your receiver state or ip-address and port!</string>
+    <string name="dialog_connection_failed_dynDns_text">Connection failed! Please eihter check your receiver state or dyndns and port!</string>
+    <string name="dialog_connection_failed_text">Connection failed! Please check your settings!</string>
+    <string name="dialog_start_settings_title">Start Settings?</string>
+    <string name="dialog_start_settings_text">No valid profil found! Do you want to start settings?</string>
+    <string name="dialog_about">Developer: Mamun Hodali\nLast updated: \n</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_about">About</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="about_discription">about_discription</string>
+    <string name="toast_message_exit">Press again to exit!</string>
+    <string name="toast_message_timer">Timer has been set!</string>
+    <string name="toast_message_search">No Searchstring!</string>
+    <string name="toast_message_no_image">No Image to save!</string>
+    <string name="toast_message_image_saved">Image saved in %s!</string>
+    <string name="toast_message_image_error">Could not save Image!(IOE)</string>
+    <!-- Settings -->
+    <string name="profil">Choose Active Profil</string>
+    <string name="sett_ip">IP-adress</string>
+    <string name="file_name">settings.txt</string>
+    <string name="sett_dyn_address">DynDns</string>
+    <string name="sett_delete_button">Delete</string>
+    <string name="sett_save_button">Save</string>
+    <string name="sett_new_profil">New Profilname</string>
+    <string name="sett_new_profil_hint">MyBox</string>
+    <string name="sett_port">Port</string>
+    <string name="sett_port_hint">8080</string>
+    <string name="sett_dyndns_hint">mydns.dyndns.org</string>
+    <string name="sett_ip_hint">192.168.1.100</string>
+    <string name="sett_username">Username</string>
+    <string name="sett_password">Password</string>
+    <string name="password">*******</string>
+
+    <!-- TextViewsName -->
+
+    <string name="app_name">RET</string>
+    <string name="action_settings">Settings</string>
+    <string name="timers">Timers</string>
+    <string name="controls">Controls</string>
+    <string name="multi_epg">Multi EPG</string>
+    <string name="extra">Extra</string>
+    <string name="movies">Movies</string>
+    <string name="services">Services</string>
+    <string name="settings">Settings</string>
+    <string name="power">Power Controls</string>
+    <string name="standby">Standby</string>
+    <string name="wakeup">Wakeup</string>
+    <string name="restart">Restart Gui</string>
+    <string name="deep">Deep Standby</string>
+    <string name="reboot">Reboot</string>
+    <string name="rec_info">Receiver Information</string>
+    <string name="grab_screen">Grab Screenshot</string>
+    <string name="search_epg">Search EPG</string>
+    <string name="send_mess">Send Message</string>
+    <string name="signal_meter">Signal Meter</string>
+    <string name="grab_screenshot">Screenshot</string>
+    <string name="search_string">Keyword</string>
+
+    <!-- rec_info TextViews -->
+
+    <string name="rec_info_gui">Gui Version:</string>
+    <string name="rec_info_dhcp">DHCP:</string>
+    <string name="rec_info_mac">MAC-address:</string>
+    <string name="rec_info_ip">IP-address:</string>
+    <string name="rec_info_subnet">Subnet:</string>
+    <string name="rec_info_gateway">Gateway:</string>
+    <string name="rec_info_harddisk">Harddisk:</string>
+    <string name="rec_info_image">Image Version:</string>
+    <string name="rec_info_webif">WebIf Version:</string>
+    <string name="rec_info_front">Front-Processor Version:</string>
+    <string name="rec_info_receiver">Receiver model:</string>
+    <string name="rec_info_tuners">Tuners:</string>
+
+    <!-- ActivityNames -->
+
+    <string name="title_activity_activity_timers">Timers</string>
+    <string name="title_activity_activity_controls">Controls</string>
+    <string name="title_activity_activity_services">Services</string>
+    <string name="title_activity_activity_movies">Movies</string>
+    <string name="title_activity_activity_settings">Settings</string>
+    <string name="title_activity_activity_epg">EPG</string>
+    <string name="title_activity_activity_rec_info">Receiver-Info</string>
+    <string name="title_activity_activity_grab_screen">Screenshot</string>
+    <string name="title_activity_activity_search_epg">Search EPG</string>
+    <string name="title_activity_activity_send_mess">Send Message</string>
+    <string name="title_activity_activity_signal_meter">Signal-Meter</string>
+    <string name="title_activity_activity_extra">Extra</string>
+    <string name="title_activity_activity_controls1">Controls</string>
+    <string name="title_activity_activity_no_con">No Connection</string>
+    <string name="title_activity_activity_first_time">First Time</string>
+
+    <!-- Receiver_Request_URLs -->
+    <string name="req_powerstate">/web/powerstate</string>
+    <string name="req_about">/web/about</string>
+    <string name="req_test">e2abouts</string>
+    <string name="req_getlocations">/web/getlocations</string>
+    <string name="req_vol_up">/web/vol?set=up</string>
+    <string name="req_vol_down">/web/vol?set=down</string>
+    <string name="req_vol_mute">/web/vol?set=mute</string>
+    <string name="req_audio_tracks">/web/getaudiotracks</string>
+    <string name="req_currenttime">/web/currenttime</string>
+    <string name="req_remotecontrol">/web/remotecontrol?command=%s</string>
+    <string name="req_grab">/grab?format=jpg</string>
+    <string name="req_epg_search">/web/epgsearch?search=%s</string>
+    <string name="req_message" formatted="false">/web/message?text=%s\u0026type=%s\u0026timeout=%s</string>
+    <string name="req_signal">/web/signal?AGC=</string>
+    <string name="req_get_services">/web/getservices?sRef=</string>
+    <string name="req_get_subservices">/web/epgnow?bRef=</string>
+    <string name="req_get_epg">/web/epgservice?sRef=</string>
+    <string name="req_add_timer" formatted="false">/web/timeraddbyeventid?sRef=%s\u0026eventid=%s\u0026justplay=%s</string>
+    <string name="req_search">/web/epgsearch?search=</string>
+    <string name="req_stream">/web/stream.m3u?ref=</string>
+
+    <!-- Request_xml_nodes -->
+    <string-array name="rec_bouquet">
+        <item>e2servicereference</item>
+        <item>e2servicename</item>
+    </string-array>
+    <string-array name="rec_service">
+        <item>e2eventstart</item>
+        <item>e2eventduration</item>
+        <item>e2eventcurrenttime</item>
+        <item>e2eventtitle</item>
+        <item>e2eventservicereference</item>
+        <item>e2eventservicename</item>
+    </string-array>
+    <string-array name="rec_epg">
+        <item>e2eventid</item>
+        <item>e2eventstart</item>
+        <item>e2eventduration</item>
+        <item>e2eventtitle</item>
+        <item>e2eventdescription</item>
+        <item>e2eventdescriptionextended</item>
+        <item>e2eventservicereference</item>
+        <item>e2eventservicename</item>
+    </string-array>
+    <string-array name="rec_info">
+        <item>e2enigmaversion</item>
+        <item>e2imageversion</item>
+        <item>e2webifversion</item>
+        <item>e2fpversion</item>
+        <item>e2model</item>
+        <item>e2lanmac</item>
+        <item>e2landhcp</item>
+        <item>e2lanip</item>
+        <item>e2lanmask</item>
+        <item>e2langw</item>
+        <item>model</item>
+        <item>capacity</item>
+        <item>free</item>
+        <item>name</item>
+        <item>type</item>
+        <item>e2servicename</item>
+        <item>e2servicenamespace</item>
+        <item>e2serviceaspect</item>
+        <item>e2serviceprovider</item>
+        <item>e2servicevideosize</item>
+        <item>e2videowidth</item>
+        <item>e2videoheight</item>
+        <item>e2servicevideosize</item>
+        <item>e2apid</item>
+        <item>e2vpid</item>
+        <item>e2pcrpid</item>
+        <item>e2pmtpid</item>
+        <item>e2txtpid</item>
+        <item>e2tsid</item>
+        <item>e2onid</item>
+        <item>e2sid</item>
+    </string-array>
+
+    <!-- Services -->
+    <string-array name="services_dialog_array">
+        <item>Zap</item>
+        <item>Stream</item>
+        <item>EPG</item>
+    </string-array>
+    <string-array name="epg_dialog_array">
+        <item>Full Discription</item>
+        <item>Set Timer(Rec)</item>
+        <item>Search for Similar</item>
+    </string-array>
+    <string-array name="epg_search_array">
+        <item>Full Discription</item>
+        <item>Set Timer(Rec)</item>
+    </string-array>
+
+    <string name="services_zap">/web/zap?sRef=</string>
+
+    <!-- Control-Caption-Strings -->
+    <string-array name="con_array_pow">
+        <item>Standby</item>
+        <item>Shutdown</item>
+        <item>Reboot</item>
+        <item>Restart</item>
+    </string-array>
+
+    <string name="con_received">True</string>
+    <string name="con_result">e2result</string>
+    <string name="con_select_pow">Select</string>
+    <string name="con_pow">Power</string>
+    <string name="con_vol_mute">Mute</string>
+    <string name="con_vol_inc">Vol+</string>
+    <string name="con_vol_dec">Vol-</string>
+    <string name="con_one">1</string>
+    <string name="con_two">2</string>
+    <string name="con_three">3</string>
+    <string name="con_four">4</string>
+    <string name="con_five">5</string>
+    <string name="con_six">6</string>
+    <string name="con_seven">7</string>
+    <string name="con_eight">8</string>
+    <string name="con_nine">9</string>
+    <string name="con_zero">0</string>
+    <string name="con_menu">Menu</string>
+    <string name="con_exit">Exit</string>
+    <string name="con_ok">OK</string>
+    <string name="con_up">Up</string>
+    <string name="con_down">Down</string>
+    <string name="con_left">Left</string>
+    <string name="con_right">Right</string>
+    <string name="con_red">Red</string>
+    <string name="con_green">Green</string>
+    <string name="con_yellow">Yellow</string>
+    <string name="con_blue">Blue</string>
+    <string name="con_more">more Controls</string>
+    <string name="con_forward">forward</string>
+    <string name="con_play">play</string>
+    <string name="con_rewind">rewind</string>
+    <string name="con_next">next</string>
+    <string name="con_pause">pause</string>
+    <string name="con_stop">stop</string>
+    <string name="con_previous">previous</string>
+    <string name="con_rec">rec</string>
+    <string name="con_help">help</string>
+    <string name="con_audio">audio</string>
+    <string name="con_video">video</string>
+    <string name="con_epg">epg</string>
+    <string name="con_chup">chup</string>
+    <string name="con_chdown">chdown</string>
+    <string name="con_tv">tv</string>
+    <string name="con_radio">radio</string>
+
+    <!-- Control-Command-Strings -->
+    <string name="con_com_pow">/web/powerstate?newstate=</string>
+    <string name="con_com_1">/web/remotecontrol?command=2</string>
+    <string name="con_com_2">/web/remotecontrol?command=3</string>
+    <string name="con_com_3">/web/remotecontrol?command=4</string>
+    <string name="con_com_4">/web/remotecontrol?command=5</string>
+    <string name="con_com_5">/web/remotecontrol?command=6</string>
+    <string name="con_com_6">/web/remotecontrol?command=7</string>
+    <string name="con_com_7">/web/remotecontrol?command=8</string>
+    <string name="con_com_8">/web/remotecontrol?command=9</string>
+    <string name="con_com_9">/web/remotecontrol?command=10</string>
+    <string name="con_com_0">/web/remotecontrol?command=11</string>
+    <string name="con_com_menu">/web/remotecontrol?command=139</string>
+    <string name="con_com_exit">/web/remotecontrol?command=174</string>
+    <string name="con_com_up">/web/remotecontrol?command=103</string>
+    <string name="con_com_right">/web/remotecontrol?command=106</string>
+    <string name="con_com_down">/web/remotecontrol?command=108</string>
+    <string name="con_com_left">/web/remotecontrol?command=105</string>
+    <string name="con_com_ok">/web/remotecontrol?command=352</string>
+    <string name="con_com_vol_dec">/web/remotecontrol?command=114</string>
+    <string name="con_com_vol_inc">/web/remotecontrol?command=115</string>
+    <string name="con_com_mute">/web/remotecontrol?command=113</string>
+    <string name="con_com_red">/web/remotecontrol?command=398</string>
+    <string name="con_com_green">/web/remotecontrol?command=399</string>
+    <string name="con_com_yellow">/web/remotecontrol?command=400</string>
+    <string name="con_com_blue">/web/remotecontrol?command=401</string>
+    <string name="con_com_forward">/web/remotecontrol?command=208</string>
+    <string name="con_com_play">/web/remotecontrol?command=207</string>
+    <string name="con_com_rewind">/web/remotecontrol?command=168</string>
+    <string name="con_com_next">/web/remotecontrol?command=407</string>
+    <string name="con_com_pause">/web/remotecontrol?command=119</string>
+    <string name="con_com_stop">/web/remotecontrol?command=128</string>
+    <string name="con_com_previous">/web/remotecontrol?command=412</string>
+    <string name="con_com_rec">/web/remotecontrol?command=167</string>
+    <string name="con_com_help">/web/remotecontrol?command=138</string>
+    <string name="con_com_audio">/web/remotecontrol?command=392</string>
+    <string name="con_com_video">/web/remotecontrol?command=393</string>
+    <string name="con_com_epg">/web/remotecontrol?command=358</string>
+    <string name="con_com_chup">/web/remotecontrol?command=402</string>
+    <string name="con_com_chdown">/web/remotecontrol?command=403</string>
+    <string name="con_com_tv">/web/remotecontrol?command=377</string>
+    <string name="con_com_radio">/web/remotecontrol?command=385</string>
+    <string name="title_activity_activity_sub_services">Subservices</string>
+    <string name="title_activity_activity_mediaplayer">Activity_mediaplayer</string>
+
+</resources>

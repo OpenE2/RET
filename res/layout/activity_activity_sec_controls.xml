@@ -1,0 +1,395 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:contentDescription="@string/discription">
+    
+   	<TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/first_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_forward"
+	        android:hint="@string/con_forward"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border"
+        	android:tag="@string/con_com_forward"/>	 
+        	
+	    <TextView android:id="@+id/con_play"
+	        android:hint="@string/con_play"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border"
+        	android:tag="@string/con_com_play"/>	
+        	
+	    <TextView android:id="@+id/con_rewind"
+	        android:hint="@string/con_rewind"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border"
+        	android:tag="@string/con_com_rewind"/>	
+	</TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/sec_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_next"
+	        android:hint="@string/con_next"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+	    	android:background="@drawable/border_right_bottom_left"
+	    	android:tag="@string/con_com_next"/>
+	   
+	    <TextView android:id="@+id/con_pause"
+	        android:hint="@string/con_pause"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_pause"/>
+	    
+	    <TextView android:id="@+id/con_stop"
+	        android:hint="@string/con_stop"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_stop"/>
+	    
+    </TableRow>
+    
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/third_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_previous"
+	        android:hint="@string/con_previous"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_previous"/>
+	    
+	    <TextView android:id="@+id/con_rec"
+	        android:hint="@string/con_rec"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_rec"/>
+	    
+	    <TextView android:id="@+id/con_help"
+	        android:hint="@string/con_help"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_help"/>
+    
+    </TableRow>
+    
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/fourth_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_audio"
+	        android:hint="@string/con_audio"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_audio"/>
+	    
+	    <TextView android:id="@+id/con_video"
+	        android:hint="@string/con_video"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_video"/>
+	    
+	    <TextView android:id="@+id/con_epg"
+	        android:hint="@string/con_epg"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_epg"/>
+   
+    </TableRow>
+	
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/fifth_row"
+        android:layout_weight="1">
+    	
+        <TextView android:id="@+id/con_menu"
+	        android:hint="@string/con_menu"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_menu"/>
+        
+         <TextView android:id="@+id/con_exit"
+	        android:hint="@string/con_exit"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_exit"/>
+
+        
+   	</TableRow>
+   	
+    
+	<TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/sixth_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_chup"
+	        android:hint="@string/con_chup"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom_left"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_chup"/>
+	    
+	    <TextView android:id="@+id/con_up"
+	        android:hint="@string/con_up"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="3"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_up"/>
+	    
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/seventh_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_chdown"
+	        android:hint="@string/con_chdown"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom_left"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_chdown"/>
+	    
+	    <TextView android:id="@+id/con_left"
+	        android:hint="@string/con_left"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_left"/>
+	    
+	    <TextView android:id="@+id/con_ok"
+	        android:hint="@string/con_ok"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_ok"/>
+	    
+	    <TextView android:id="@+id/con_right"
+	        android:hint="@string/con_right"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_right"/>
+	        
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/eighth_row"
+        android:layout_weight="1">
+    
+	    <TextView android:id="@+id/con_tv"
+	        android:hint="@string/con_tv"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom_left"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_tv"/>
+	    
+	    <TextView android:id="@+id/con_down"
+	        android:hint="@string/con_down"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="3"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom_left"
+        	android:tag="@string/con_com_down"/>
+
+	</TableRow>
+	
+	
+	
+	<TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ninth_row"
+        android:layout_weight="1">
+	    
+	    <TextView android:id="@+id/con_radio"
+	        android:hint="@string/con_radio"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom_left"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_radio"/>
+    
+	    <TextView android:id="@+id/con_vol_dec"
+	        android:hint="@string/con_vol_dec"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom_left"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_vol_dec"/>
+	    
+	    <TextView android:id="@+id/con_vol_mute"
+	        android:hint="@string/con_vol_mute"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_right_bottom"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:tag="@string/con_com_mute"/>
+	    
+	    <TextView android:id="@+id/con_vol_inc"
+	        android:hint="@string/con_vol_inc"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size_main"
+	        android:layout_weight="1"
+	        android:clickable="true"
+        	android:onClick="intent"
+        	android:background="@drawable/border_right_bottom"
+        	android:tag="@string/con_com_vol_inc"/>
+
+	</TableRow>
+	
+</TableLayout>
